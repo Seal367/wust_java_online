@@ -2,7 +2,7 @@
 
 ## 武汉科技大学 重生为蛇，无限进化小组 倾情制作
 
-#### [SaiQI Jin](https://github.com/jinsaiqi)，[Bleader Yang](https://github.com/Bleaderr) ，[Ian Tao](https://github.com/Seal367)
+#### [SaiQI Jin](https:#github.com/jinsaiqi)，[Bleader Yang](https:#github.com/Bleaderr) ，[Ian Tao](https:#github.com/Seal367)
 
 IDEA 打开直玩！
 
@@ -21,22 +21,23 @@ IDEA 打开直玩！
 
 图形界面与文字描述双重版本！满足您对原版贪吃蛇的想法！
 
-![alt](https://github.com/Seal367/wust_java_online/blob/main/imgs/1.png?raw=true)
+![alt](https:#github.com/Seal367/wust_java_online/blob/main/imgs/1.png?raw=true)
 
 新增rougue模式！十五种技能任你选择！穿墙、加速、无敌随意选择！
 
-![alt](https://github.com/Seal367/wust_java_online/blob/main/imgs/2.png?raw=true)
+![alt](https:#github.com/Seal367/wust_java_online/blob/main/imgs/2.png?raw=true)
 
 炫酷UI超强技能，任意游玩！
 
-![alt](https://github.com/Seal367/wust_java_online/blob/main/imgs/4.png?raw=true)
+![alt](https:#github.com/Seal367/wust_java_online/blob/main/imgs/4.png?raw=true)
 
-![alt](https://github.com/Seal367/wust_java_online/blob/main/imgs/3.png?raw=true)
+![alt](https:#github.com/Seal367/wust_java_online/blob/main/imgs/3.png?raw=true)
 
 ## 📊 File Structure
 
 以下是我们项目主要文件树构成，符合java开发包管理规则。
 
+```text
 src/
 └── main/
     ├── java/
@@ -44,37 +45,37 @@ src/
     │   └── com/
     │       └── example/
     │           └── javafx3/
-    │               ├── SnakeGameWSAD.java  //Game start flie
-    │               ├── GameOverTest.java // Game-over test file
-    │               ├── SkillSystemTest.java // Skill test file
-    │               ├── SimpleSnakeGame.java // Platform-game start file
-    │               ├── EffectType.java // EffectEnum
-    │               ├── Rarity.java // RarityEnum
+    │               ├── SnakeGameWSAD.java  # Game start flie
+    │               ├── GameOverTest.java # Game-over test file
+    │               ├── SkillSystemTest.java # Skill test file
+    │               ├── SimpleSnakeGame.java # Platform-game start file
+    │               ├── EffectType.java # EffectEnum
+    │               ├── Rarity.java # RarityEnum
     │               ├── ui/
-    │               │   ├── SkillMenuController.java // Controller for menu
-    │               │   ├── SkillDetailController.java // Controller for skill
-    │               │   ├── GameOverController.java // Controller for game-over
-    │               │   ├── SkillNotificationSystem.java // Controller for skill notification
-    │               │   ├── SkillCardController.java // Controller for card
-    │               │   └── SimpleSkillMenuController.java // Controller for skill mune
+    │               │   ├── SkillMenuController.java # Controller for menu
+    │               │   ├── SkillDetailController.java # Controller for skill
+    │               │   ├── GameOverController.java # Controller for game-over
+    │               │   ├── SkillNotificationSystem.java # Controller for skill notification
+    │               │   ├── SkillCardController.java # Controller for card
+    │               │   └── SimpleSkillMenuController.java # Controller for skill mune
     │               ├── model/
-    │               │   ├── SkillCard.java // Class of skillCard
-    │               │   └── SkillEffect.java // Class of skillEffect
+    │               │   ├── SkillCard.java # Class of skillCard
+    │               │   └── SkillEffect.java # Class of skillEffect
     │               └── manager/
-    │                   ├── SkillManager.java // Manage skill
-    │                   └── GameState.java // Manage gamestate
+    │                   ├── SkillManager.java # Manage skill
+    │                   └── GameState.java # Manage gamestate
     └── resources/
         ├── css/
-        │   ├── skill-detail.css // Draw skill detail
-        │   ├── game-over.css // Draw game-over page
-        │   ├── skill-ui.css // draw skill detail
-        │   └── game-styles.css // draw game page detail
+        │   ├── skill-detail.css # Draw skill detail
+        │   ├── game-over.css # Draw game-over page
+        │   ├── skill-ui.css # draw skill detail
+        │   └── game-styles.css # draw game page detail
         └── fxml/
-            ├── skill-detail.fxml // Construction of skill detail
-            ├── game-over.fxml // Construction of game-over page
-            ├── skill-card.fxml // Construction of skill card
-            └── skill-menu.fxml // Construction of skill menu
-
+            ├── skill-detail.fxml # Construction of skill detail
+            ├── game-over.fxml # Construction of game-over page
+            ├── skill-card.fxml # Construction of skill card
+            └── skill-menu.fxml # Construction of skill menu
+```
 ## 💡 Quick Start
 
 操作说明：
