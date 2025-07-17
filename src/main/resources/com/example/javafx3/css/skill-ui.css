@@ -1,0 +1,337 @@
+/* Skill UI Styling */
+
+/* Skill Menu Container */
+.skill-menu {
+    -fx-background-color: rgba(0, 0, 0, 0.9);
+    -fx-border-color: #444444;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 5);
+}
+
+.skill-menu-title {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+/* Skill Card Container */
+.skill-card {
+    -fx-background-color: linear-gradient(to bottom, #2c3e50, #34495e);
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 12px;
+    -fx-spacing: 8px;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.3), 3, 0, 0, 2);
+    -fx-cursor: hand;
+}
+
+.skill-card:hover {
+    -fx-background-color: linear-gradient(to bottom, #34495e, #3a546b);
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 3);
+}
+
+.skill-card:pressed {
+    -fx-background-color: linear-gradient(to bottom, #2c3e50, #2a3f54);
+}
+
+/* Enhanced Skill Card Rarity Borders */
+.skill-card-common {
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2px;
+    -fx-background-color: linear-gradient(to bottom, #34495e, #2c3e50);
+}
+
+.skill-card-rare {
+    -fx-border-color: #00ff00;
+    -fx-border-width: 2px;
+    -fx-background-color: linear-gradient(to bottom, #27ae60, #229954);
+    -fx-effect: dropshadow(one-pass-box, rgba(0,255,0,0.3), 3, 0, 0, 0);
+}
+
+.skill-card-epic {
+    -fx-border-color: #0080ff;
+    -fx-border-width: 2px;
+    -fx-background-color: linear-gradient(to bottom, #3498db, #2980b9);
+    -fx-effect: dropshadow(one-pass-box, rgba(0,128,255,0.4), 4, 0, 0, 0);
+}
+
+.skill-card-legendary {
+    -fx-border-color: #ff8000;
+    -fx-border-width: 3px;
+    -fx-background-color: linear-gradient(to bottom, #f39c12, #e67e22);
+    -fx-effect: dropshadow(one-pass-box, #ff8000, 8, 0.6, 0, 0);
+}
+
+/* Skill card hover effects by rarity */
+.skill-card-common:hover {
+    -fx-background-color: linear-gradient(to bottom, #3a546b, #34495e);
+}
+
+.skill-card-rare:hover {
+    -fx-background-color: linear-gradient(to bottom, #2ecc71, #27ae60);
+}
+
+.skill-card-epic:hover {
+    -fx-background-color: linear-gradient(to bottom, #5dade2, #3498db);
+}
+
+.skill-card-legendary:hover {
+    -fx-background-color: linear-gradient(to bottom, #f1c40f, #f39c12);
+    -fx-effect: dropshadow(one-pass-box, #ff8000, 12, 0.8, 0, 0);
+}
+
+/* Skill Card Elements */
+.skill-icon {
+    -fx-font-size: 32px;
+    -fx-text-alignment: center;
+}
+
+.skill-name {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.skill-description {
+    -fx-text-fill: #bdc3c7;
+    -fx-font-size: 12px;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+
+.skill-rarity {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.skill-status {
+    -fx-font-size: 10px;
+    -fx-text-alignment: center;
+    -fx-font-style: italic;
+}
+
+/* Active Skill Indicators */
+.skill-active {
+    -fx-background-color: linear-gradient(to bottom, #27ae60, #2ecc71);
+    -fx-text-fill: white;
+}
+
+.skill-used {
+    -fx-background-color: linear-gradient(to bottom, #7f8c8d, #95a5a6);
+    -fx-opacity: 0.6;
+}
+
+.skill-cooldown {
+    -fx-background-color: linear-gradient(to bottom, #e67e22, #f39c12);
+}
+
+/* Skill Slots */
+.skill-slots-container {
+    -fx-background-color: #2c3e50;
+    -fx-border-color: #34495e;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+    -fx-spacing: 5px;
+}
+
+.skill-slot {
+    -fx-background-color: #34495e;
+    -fx-border-color: #4a6278;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+    -fx-max-width: 40px;
+    -fx-max-height: 40px;
+}
+
+.skill-slot-occupied {
+    -fx-background-color: #27ae60;
+    -fx-border-color: #2ecc71;
+}
+
+.skill-slot-available {
+    -fx-background-color: #3498db;
+    -fx-border-color: #5dade2;
+}
+
+/* Skill Menu Buttons */
+.skill-menu-button {
+    -fx-background-color: linear-gradient(to bottom, #3498db, #2980b9);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.skill-menu-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #2980b9, #21618c);
+}
+
+.skill-menu-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #21618c, #1b4f72);
+}
+
+.skill-menu-close {
+    -fx-background-color: linear-gradient(to bottom, #e74c3c, #c0392b);
+}
+
+.skill-menu-close:hover {
+    -fx-background-color: linear-gradient(to bottom, #c0392b, #a93226);
+}
+
+/* Skill Grid */
+.skill-grid {
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding: 10px;
+}
+
+/* Skill Statistics */
+.skill-stats {
+    -fx-background-color: #34495e;
+    -fx-border-color: #4a6278;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+.skill-stats-title {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.skill-stats-text {
+    -fx-text-fill: #bdc3c7;
+    -fx-font-size: 12px;
+}
+
+/* Skill Activation Animation */
+.skill-activate-animation {
+    -fx-effect: dropshadow(gaussian, #f1c40f, 10, 0.8, 0, 0);
+}
+
+/* Enhanced Skill Notification System */
+.skill-notification-popup {
+    -fx-background-color: linear-gradient(to right, #8e44ad, #9b59b6);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 15px 20px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-border-color: rgba(255,255,255,0.3);
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0, 0, 5);
+}
+
+.skill-notification-unlocked {
+    -fx-background-color: linear-gradient(to right, #27ae60, #2ecc71);
+}
+
+.skill-notification-activated {
+    -fx-background-color: linear-gradient(to right, #3498db, #5dade2);
+}
+
+.skill-notification-conflict {
+    -fx-background-color: linear-gradient(to right, #e67e22, #f39c12);
+}
+
+.skill-notification-game-event {
+    -fx-background-color: linear-gradient(to right, #9b59b6, #8e44ad);
+}
+
+/* Notification animations */
+@keyframes slideInFromTop {
+    from {
+        -fx-translate-y: -100px;
+        -fx-opacity: 0;
+        -fx-scale-x: 0.8;
+        -fx-scale-y: 0.8;
+    }
+    to {
+        -fx-translate-y: 0;
+        -fx-opacity: 1;
+        -fx-scale-x: 1.0;
+        -fx-scale-y: 1.0;
+    }
+}
+
+@keyframes slideOutToTop {
+    from {
+        -fx-translate-y: 0;
+        -fx-opacity: 1;
+    }
+    to {
+        -fx-translate-y: -100px;
+        -fx-opacity: 0;
+    }
+}
+
+.skill-notification-enter {
+    -fx-animation: slideInFromTop 0.5s ease-out;
+}
+
+.skill-notification-exit {
+    -fx-animation: slideOutToTop 0.5s ease-in;
+}
+
+/* Skill Progress Indicators */
+.skill-progress-ring {
+    -fx-stroke: #3498db;
+    -fx-stroke-width: 3;
+    -fx-fill: transparent;
+}
+
+.skill-progress-ring-background {
+    -fx-stroke: #34495e;
+    -fx-stroke-width: 3;
+    -fx-fill: transparent;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .skill-card {
+        -fx-padding: 8px;
+        -fx-spacing: 6px;
+    }
+    
+    .skill-icon {
+        -fx-font-size: 24px;
+    }
+    
+    .skill-name {
+        -fx-font-size: 14px;
+    }
+    
+    .skill-description {
+        -fx-font-size: 10px;
+    }
+}
+
+/* Accessibility */
+.skill-card:focused {
+    -fx-border-color: #f1c40f;
+    -fx-border-width: 3px;
+}
+
+.high-contrast .skill-card {
+    -fx-background-color: #000000;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2px;
+}

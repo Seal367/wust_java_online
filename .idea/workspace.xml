@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b6eaf53-798f-46c4-a4ad-9544dd4f44af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/skill-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/skill-detail.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/Point/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/SimpleSnakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx3/SimpleSnakeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/SnakeGameWSAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx3/SnakeGameWSAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/css/game-over.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/css/game-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/manager/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx3/manager/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/manager/SkillManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx3/manager/SkillManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/model/SkillCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx3/model/SkillCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/ui/GameOverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx3/ui/GameOverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafx3/ui/SkillMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafx3/ui/SkillMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafx3/css/game-over.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/game-over.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafx3/css/game-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/game-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafx3/css/skill-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/skill-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafx3/fxml/game-over.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/game-over.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafx3/fxml/skill-card.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/skill-card.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafx3/fxml/skill-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/skill-menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/GameOverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/GameOverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/Point/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/SimpleSnakeGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/SimpleSnakeGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/SkillSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/SkillSystemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$GameStateData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$GameStateData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/SnakeGameWSAD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/css/game-over.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/css/game-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/css/skill-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/fxml/game-over.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/fxml/skill-card.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/fxml/skill-menu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/GameState$GameStateSnapshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/GameState$GameStateSnapshot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/SkillManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/SkillManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/SkillManager$ConflictResolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/SkillManager$ConflictResolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/SkillManager$SnakeGameEffects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/SkillManager$SnakeGameEffects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/SkillManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/manager/SkillManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/model/SkillCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/model/SkillCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/model/SkillEffect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/model/SkillEffect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/GameOverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/GameOverController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SimpleSkillMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SimpleSkillMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillCardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillCardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillNotificationSystem$NotificationListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillNotificationSystem$NotificationListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillNotificationSystem$NotificationMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillNotificationSystem$NotificationMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillNotificationSystem$NotificationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillNotificationSystem$NotificationType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillNotificationSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/javafx3/ui/SkillNotificationSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2zw6VStWP1P2dBoJiA05LdEWgEJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SimpleSnakeGame.executor": "Run",
+    "Application.SnakeGameWSAD.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/txw_uni/programmingproject/java/javafx3.1/src/main/resources/css",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\txw_uni\programmingproject\java\javafx3.1\src\main\resources\css" />
+      <recent name="D:\txw_uni\programmingproject\java\javafx3.1\src\main\resources\fxml" />
+      <recent name="D:\txw_uni\programmingproject\java\javafx3.1\src\main\java\com\example\javafx3\fxml" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\txw_uni\programmingproject\java\javafx3.1\src\main\resources\css" />
+      <recent name="D:\txw_uni\programmingproject\java\javafx3.1\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="javafx3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="javafx3" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b6eaf53-798f-46c4-a4ad-9544dd4f44af" name="Changes" comment="" />
+      <created>1752629813353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752629813353</updated>
+      <workItem from="1752629815275" duration="155000" />
+      <workItem from="1752629977375" duration="11000" />
+      <workItem from="1752629997696" duration="12000" />
+      <workItem from="1752630380817" duration="16000" />
+      <workItem from="1752630416583" duration="49000" />
+      <workItem from="1752630474635" duration="10000" />
+      <workItem from="1752630535825" duration="8389000" />
+      <workItem from="1752648570099" duration="2468000" />
+      <workItem from="1752714731342" duration="40000" />
+      <workItem from="1752714949897" duration="5078000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

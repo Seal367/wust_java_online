@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.ui.SkillMenuController" styleClass="skill-menu" maxWidth="600" maxHeight="500">
+   <children>
+      <!-- Header -->
+      <HBox alignment="CENTER_LEFT" spacing="20">
+         <children>
+            <Label text="🎯 Skill Management" styleClass="skill-menu-title" />
+            <Region HBox.hgrow="ALWAYS" />
+            <Button fx:id="closeButton" text="✕" styleClass="skill-menu-close" onAction="#closeMenu" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+      </HBox>
+      
+      <!-- Game Status -->
+      <HBox alignment="CENTER" spacing="30">
+         <children>
+            <VBox alignment="CENTER" spacing="5">
+               <children>
+                  <Label text="Score" styleClass="skill-stats-title" />
+                  <Label fx:id="scoreLabel" text="0" styleClass="skill-stats-text" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" spacing="5">
+               <children>
+                  <Label text="Skills Earned" styleClass="skill-stats-title" />
+                  <Label fx:id="skillsEarnedLabel" text="0/15" styleClass="skill-stats-text" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" spacing="5">
+               <children>
+                  <Label text="Active Slots" styleClass="skill-stats-title" />
+                  <Label fx:id="activeSlotsLabel" text="0/3" styleClass="skill-stats-text" />
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+      </HBox>
+      
+      <!-- Skill Progress -->
+      <VBox spacing="5">
+         <children>
+            <Label text="Progress to Next Skill" styleClass="skill-stats-title" />
+            <HBox alignment="CENTER_LEFT" spacing="10">
+               <children>
+                  <ProgressBar fx:id="skillProgressBar" prefWidth="200" styleClass="skill-progress-bar" />
+                  <Label fx:id="skillProgressLabel" text="0/60 points" styleClass="skill-progress-text" />
+               </children>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+      </VBox>
+      
+      <!-- Active Skills Section -->
+      <VBox spacing="10">
+         <children>
+            <Label text="🔥 Active Skills" styleClass="skill-stats-title" />
+            <ScrollPane fx:id="activeSkillsPane" prefHeight="80" fitToWidth="true">
+               <content>
+                  <FlowPane fx:id="activeSkillsContainer" hgap="10" vgap="10" />
+               </content>
+            </ScrollPane>
+         </children>
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+      </VBox>
+      
+      <!-- Available Skills Section -->
+      <VBox spacing="10" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox alignment="CENTER_LEFT" spacing="15">
+               <children>
+                  <Label text="📚 Available Skills" styleClass="skill-stats-title" />
+                  <ComboBox fx:id="rarityFilter" promptText="Filter by Rarity" onAction="#filterSkills" />
+               </children>
+            </HBox>
+            <ScrollPane fx:id="availableSkillsPane" fitToWidth="true" VBox.vgrow="ALWAYS">
+               <content>
+                  <GridPane fx:id="skillGrid" styleClass="skill-grid" />
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+      
+      <!-- Action Buttons -->
+      <HBox alignment="CENTER" spacing="15">
+         <children>
+            <Button fx:id="activateSelectedButton" text="Activate Selected" styleClass="skill-menu-button" onAction="#activateSelectedSkill" disable="true" />
+            <Button fx:id="deactivateAllButton" text="Deactivate All" styleClass="skill-menu-button" onAction="#deactivateAllSkills" />
+            <Button fx:id="resetSkillsButton" text="Reset Skills" styleClass="skill-menu-button" onAction="#resetSkills" />
+         </children>
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

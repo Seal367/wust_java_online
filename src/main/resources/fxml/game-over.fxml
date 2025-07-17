@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.ui.GameOverController" styleClass="game-over-overlay">
+   <children>
+      <!-- Main Container -->
+      <VBox styleClass="game-over-container" maxWidth="480" maxHeight="480" prefWidth="480" prefHeight="480">
+         <children>
+            <!-- Title Section -->
+            <VBox alignment="CENTER" spacing="8">
+               <children>
+                  <Label fx:id="titleLabel" text="游戏结束" styleClass="game-over-title" />
+                  <Label fx:id="subtitleLabel" text="下次好运！" style="-fx-text-fill: #bdc3c7; -fx-font-size: 14px;" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="12.0" />
+               </VBox.margin>
+            </VBox>
+
+            <!-- Score Section -->
+            <VBox styleClass="score-section">
+               <children>
+                  <Label text="最终得分" styleClass="final-score-label" />
+                  <Label fx:id="scoreLabel" text="0" styleClass="score-value" />
+                  
+                  <!-- Achievement Badges -->
+                  <HBox fx:id="achievementContainer" alignment="CENTER" spacing="8" visible="false">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="0" bottom="8.0" />
+               </VBox.margin>
+            </VBox>
+
+            <!-- Statistics Section -->
+            <VBox styleClass="stats-section">
+               <children>
+                  <Label text="📊 游戏统计" styleClass="stats-title" />
+                  
+                  <GridPane styleClass="stats-grid">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" />
+                        <ColumnConstraints hgrow="SOMETIMES" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints vgrow="SOMETIMES" />
+                        <RowConstraints vgrow="SOMETIMES" />
+                        <RowConstraints vgrow="SOMETIMES" />
+                        <RowConstraints vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <!-- Time Played -->
+                        <Label text="游戏时长:" styleClass="stat-label" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                        <Label fx:id="timePlayedLabel" text="0:00" styleClass="stat-value" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+                        <!-- Skills Earned -->
+                        <Label text="获得技能:" styleClass="stat-label" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                        <Label fx:id="skillsEarnedLabel" text="0" styleClass="stat-value" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+                        <!-- Food Consumed -->
+                        <Label text="食物消耗:" styleClass="stat-label" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                        <Label fx:id="foodConsumedLabel" text="0" styleClass="stat-value" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+                        <!-- Max Snake Length -->
+                        <Label text="最大长度:" styleClass="stat-label" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                        <Label fx:id="maxLengthLabel" text="3" styleClass="stat-value" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                     </children>
+                  </GridPane>
+               </children>
+               <VBox.margin>
+                  <Insets top="8.0" />
+               </VBox.margin>
+            </VBox>
+
+            <!-- Skills Summary (only shown if skills were earned) -->
+            <VBox fx:id="skillsSummarySection" styleClass="skills-summary" visible="false">
+               <children>
+                  <Label text="🎯 技能掌握" styleClass="skills-title" />
+                  <Label fx:id="skillsSummaryLabel" text="0 / 15" styleClass="skills-earned" />
+                  <Label fx:id="bestSkillLabel" text="" style="-fx-text-fill: white; -fx-font-size: 11px;" />
+               </children>
+               <VBox.margin>
+                  <Insets top="8.0" />
+               </VBox.margin>
+            </VBox>
+
+            <!-- Button Section -->
+            <HBox styleClass="button-section">
+               <children>
+                  <Button fx:id="restartButton" text="🔄 再玩一次" styleClass="game-over-button, restart-button" onAction="#onRestartClicked" defaultButton="true" />
+                  <Button fx:id="exitButton" text="🚪 退出游戏" styleClass="game-over-button, exit-button" onAction="#onExitClicked" />
+               </children>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </HBox>
+
+            <!-- Additional Controls -->
+            <HBox alignment="CENTER" spacing="10">
+               <children>
+                  <Label text="按回车键重新开始 • 按ESC键退出" style="-fx-text-fill: #7f8c8d; -fx-font-size: 10px;" />
+               </children>
+               <VBox.margin>
+                  <Insets top="8.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

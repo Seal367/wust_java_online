@@ -1,0 +1,230 @@
+/* 技能详情界面样式 */
+
+/* 主容器 */
+.skill-detail-container {
+    -fx-background-color: rgba(0, 0, 0, 0.95);
+    -fx-alignment: center;
+    -fx-spacing: 15px;
+    -fx-padding: 25px;
+    -fx-border-color: #3498db;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 20, 0.5, 0, 0);
+}
+
+/* 背景覆盖层 */
+.skill-detail-overlay {
+    -fx-background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* 头部区域 */
+.skill-detail-header {
+    -fx-background-color: linear-gradient(to bottom, #34495e, #2c3e50);
+    -fx-border-color: #3498db;
+    -fx-border-width: 2px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 8, 0, 0, 3);
+}
+
+/* 技能图标 */
+.skill-detail-icon {
+    -fx-text-fill: #f1c40f;
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(one-pass-box, rgba(241,196,15,0.6), 4, 0, 0, 2);
+}
+
+/* 技能名称 */
+.skill-detail-name {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 1);
+}
+
+/* 技能稀有度 */
+.skill-detail-rarity {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* 区域标题 */
+.skill-detail-section-title {
+    -fx-text-fill: #3498db;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 8 0;
+}
+
+/* 描述区域 */
+.skill-detail-description-section {
+    -fx-background-color: linear-gradient(to bottom, #2c3e50, #34495e);
+    -fx-border-color: #95a5a6;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 15px;
+    -fx-spacing: 8px;
+}
+
+.skill-detail-description {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 14px;
+    -fx-line-spacing: 2px;
+}
+
+/* 效果区域 */
+.skill-detail-effects-section {
+    -fx-background-color: linear-gradient(to bottom, #8e44ad, #9b59b6);
+    -fx-border-color: #7d3c98;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 15px;
+    -fx-spacing: 8px;
+}
+
+.skill-detail-effects {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-line-spacing: 2px;
+}
+
+/* 参数区域 */
+.skill-detail-parameters-section {
+    -fx-background-color: linear-gradient(to bottom, #e67e22, #d35400);
+    -fx-border-color: #c0392b;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 15px;
+    -fx-spacing: 8px;
+}
+
+.skill-parameters-grid {
+    -fx-hgap: 15px;
+    -fx-vgap: 8px;
+    -fx-alignment: center;
+}
+
+.skill-param-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.skill-param-value {
+    -fx-text-fill: #f1c40f;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* 稀有度信息区域 */
+.skill-detail-rarity-section {
+    -fx-background-color: linear-gradient(to bottom, #16a085, #1abc9c);
+    -fx-border-color: #148f77;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 15px;
+    -fx-spacing: 8px;
+}
+
+.skill-detail-rarity-info {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 13px;
+    -fx-line-spacing: 2px;
+}
+
+/* 按钮区域 */
+.skill-detail-button-section {
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}
+
+.skill-detail-button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 24px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 3);
+    -fx-min-width: 140px;
+}
+
+.select-skill-button {
+    -fx-background-color: linear-gradient(to bottom, #2ecc71, #27ae60);
+    -fx-text-fill: white;
+    -fx-border-color: #229954;
+    -fx-border-width: 2px;
+}
+
+.select-skill-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #27ae60, #229954);
+    -fx-effect: dropshadow(three-pass-box, rgba(46,204,113,0.6), 8, 0, 0, 4);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.select-skill-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #229954, #1e8449);
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+.back-button {
+    -fx-background-color: linear-gradient(to bottom, #95a5a6, #7f8c8d);
+    -fx-text-fill: white;
+    -fx-border-color: #6c7b7d;
+    -fx-border-width: 2px;
+}
+
+.back-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #7f8c8d, #6c7b7d);
+    -fx-effect: dropshadow(three-pass-box, rgba(149,165,166,0.6), 8, 0, 0, 4);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.back-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #6c7b7d, #5d6d6e);
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+/* 焦点样式 */
+.skill-detail-button:focused {
+    -fx-border-color: #f1c40f;
+    -fx-border-width: 3px;
+}
+
+/* 稀有度特定样式 */
+.rarity-common {
+    -fx-text-fill: #95a5a6;
+}
+
+.rarity-uncommon {
+    -fx-text-fill: #2ecc71;
+}
+
+.rarity-rare {
+    -fx-text-fill: #3498db;
+}
+
+.rarity-epic {
+    -fx-text-fill: #9b59b6;
+}
+
+.rarity-legendary {
+    -fx-text-fill: #f1c40f;
+}
+
+.rarity-mythic {
+    -fx-text-fill: #e74c3c;
+}

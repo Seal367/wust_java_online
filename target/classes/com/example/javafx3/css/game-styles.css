@@ -1,0 +1,198 @@
+/* Main Game Styling */
+.root {
+    -fx-background-color: #1a1a1a;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+/* Game Canvas */
+.game-canvas {
+    -fx-background-color: #2d2d2d;
+    -fx-border-color: #444444;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+/* Control Panel */
+.control-panel {
+    -fx-background-color: linear-gradient(to bottom, #3a3a3a, #2d2d2d);
+    -fx-padding: 15px;
+    -fx-spacing: 20px;
+    -fx-border-color: #555555;
+    -fx-border-width: 1px 0 0 0;
+}
+
+/* Status Panel */
+.status-panel {
+    -fx-background-color: linear-gradient(to bottom, #2d2d2d, #3a3a3a);
+    -fx-padding: 15px;
+    -fx-spacing: 30px;
+    -fx-border-color: #555555;
+    -fx-border-width: 0 0 1px 0;
+}
+
+/* Buttons */
+.game-button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 2, 0, 0, 1);
+}
+
+.start-button {
+    -fx-background-color: linear-gradient(to bottom, #2ecc71, #27ae60);
+    -fx-text-fill: white;
+}
+
+.start-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #27ae60, #229954);
+}
+
+.start-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #229954, #1e8449);
+}
+
+.exit-button {
+    -fx-background-color: linear-gradient(to bottom, #e74c3c, #c0392b);
+    -fx-text-fill: white;
+}
+
+.exit-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #c0392b, #a93226);
+}
+
+.exit-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #a93226, #922b21);
+}
+
+.skill-button {
+    -fx-background-color: linear-gradient(to bottom, #9b59b6, #8e44ad);
+    -fx-text-fill: white;
+}
+
+.skill-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #8e44ad, #7d3c98);
+}
+
+.skill-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #7d3c98, #6c3483);
+}
+
+/* Labels */
+.score-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.5), 1, 0, 0, 1);
+}
+
+.status-label {
+    -fx-text-fill: #f1c40f;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.5), 1, 0, 0, 1);
+}
+
+.focus-label {
+    -fx-text-fill: #00bcd4;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.control-label {
+    -fx-text-fill: #bdc3c7;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Skill Progress Bar */
+.skill-progress-container {
+    -fx-background-color: #34495e;
+    -fx-border-color: #2c3e50;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 2px;
+}
+
+.skill-progress-bar {
+    -fx-background-color: linear-gradient(to right, #3498db, #2980b9);
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-min-height: 8px;
+    -fx-max-height: 8px;
+}
+
+.skill-progress-text {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Game Over Overlay */
+.game-over-overlay {
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+}
+
+.game-over-title {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 3, 0, 0, 2);
+}
+
+.game-over-score {
+    -fx-text-fill: #f1c40f;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 1);
+}
+
+/* Win Overlay */
+.win-overlay {
+    -fx-background-color: rgba(0, 100, 0, 0.8);
+}
+
+.win-title {
+    -fx-text-fill: #2ecc71;
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 3, 0, 0, 2);
+}
+
+/* Skill Notification */
+.skill-notification {
+    -fx-background-color: linear-gradient(to bottom, #9b59b6, #8e44ad);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 2);
+}
+
+/* Animations */
+.fade-in {
+    -fx-opacity: 0;
+}
+
+.slide-up {
+    -fx-translate-y: 50;
+}
+
+/* Responsive adjustments */
+.compact-mode .game-button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+}
+
+.compact-mode .score-label {
+    -fx-font-size: 18px;
+}
+
+.compact-mode .status-label {
+    -fx-font-size: 16px;
+}
