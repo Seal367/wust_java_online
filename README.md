@@ -21,17 +21,17 @@ IDEA 打开直玩！
 
 图形界面与文字描述双重版本！满足您对原版贪吃蛇的想法！
 
-![alt](https:#github.com/Seal367/wust_java_online/blob/main/imgs/1.png?raw=true)
+![alt](https://github.com/Seal367/wust_java_online/blob/main/imgs/1.png?raw=true)
 
 新增rougue模式！十五种技能任你选择！穿墙、加速、无敌随意选择！
 
-![alt](https:#github.com/Seal367/wust_java_online/blob/main/imgs/2.png?raw=true)
+![alt](https://github.com/Seal367/wust_java_online/blob/main/imgs/2.png?raw=true)
 
 炫酷UI超强技能，任意游玩！
 
-![alt](https:#github.com/Seal367/wust_java_online/blob/main/imgs/4.png?raw=true)
+![alt](https://github.com/Seal367/wust_java_online/blob/main/imgs/4.png?raw=true)
 
-![alt](https:#github.com/Seal367/wust_java_online/blob/main/imgs/3.png?raw=true)
+![alt](https://github.com/Seal367/wust_java_online/blob/main/imgs/3.png?raw=true)
 
 ## 📊 File Structure
 
